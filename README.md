@@ -1,0 +1,1 @@
+This is a conversion of many other weapons to my own base so I can better control them, have better code clean-ity, and just in general a better overview. This specific one is made for ttt.
