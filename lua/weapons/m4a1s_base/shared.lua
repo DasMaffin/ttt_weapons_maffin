@@ -15,7 +15,7 @@ SWEP.Primary.ADSBonus       = 0.15
 SWEP.Primary.ClipSize       = 20
 SWEP.Primary.DefaultClip    = 20
 SWEP.Primary.Automatic      = true
-SWEP.Primary.Sound          = Sound("Weapon_M4A4.Fire")               -- The shooting sound.
+SWEP.Primary.Sound          = Sound("Weapon_M4A1S.Fire")               -- The shooting sound.
 SWEP.HeadshotMultiplier     = 2
 
 function SWEP:SetZoom(state)

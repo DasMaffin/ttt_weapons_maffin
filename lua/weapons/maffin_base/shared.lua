@@ -1,6 +1,6 @@
 ----------========== Fields that are to be overridden by the child class ==========----------
 
-SWEP.HoldType               = "pistol"
+SWEP.HoldType               = ""
 SWEP.PrintName              = "Maffin Base"
 SWEP.Slot                   = 0                 -- 0 = knife, 1 = pistol, 2 = smg, rifle, shotgun, sniper, machinegun
 SWEP.Kind                   = WEAPON_PISTOL     -- WEAPON_HEAVY, WEAPON_PISTOL, WEAPON_NADE, WEAPON_EQUIP1, WEAPON_EQUIP2
@@ -16,8 +16,10 @@ SWEP.Primary.DefaultClip    = 0
 SWEP.Primary.Automatic      = false
 SWEP.Primary.Sound          = nil               -- The shooting sound.
 
-SWEP.ViewModel             = ""
-SWEP.WorldModel            = ""
+SWEP.HeadshotMultiplier = 2.7
+
+SWEP.ViewModel              = ""
+SWEP.WorldModel             = ""
 
 ----------==========                                                     ==========----------
 
@@ -26,22 +28,39 @@ SWEP.WorldModel            = ""
 SWEP.ViewModelFlip          = false
 SWEP.Icon                   = "vgui/ttt/icon_deagle"
 SWEP.Base                   = "weapon_tttbase"
-DEFINE_BASECLASS("weapon_tttbase")
 SWEP.AutoSpawnable          = false
 SWEP.IronSightsPos          = nil               -- Vector(-5.95, -4, 2.799)
 SWEP.IronSightsAng          = nil               -- Vector(0, 0, 0)
+SWEP.Primary.ADSBonus       = 0                 -- Proprietary field to remove the magic number from the accuracy bonus when sighting.
 
 ----------==========                                                  ==========----------
 
 ----------========== DO NOT TOUCH Fields ==========----------
+
 SWEP.Primary.ClipMax        = 36                -- We set this so in ttt bullets get saved on weapon drop.
 SWEP.Author                 = "Maffin"
 SWEP.UseHands               = true
+DEFINE_BASECLASS("weapon_tttbase")
 
 function SWEP:Reload()
 	if self:Clip1() == self.Primary.ClipSize or self:GetOwner():GetAmmoCount( self.Primary.Ammo ) <= 0 then return end
 	self:DefaultReload( ACT_VM_RELOAD )
-	self:SetInspectTime( CurTime() + self:SequenceDuration() )
 	self:SetIronsights( false )
 	self:SetZoom( false )
+    BaseClass.Reload(self)
 end
+
+function SWEP:Think()
+	if self:GetOwner():KeyPressed( IN_RELOAD ) and not self:GetIronsights() then
+		self:SendWeaponAnim( ACT_VM_FIDGET )
+    end
+    BaseClass.Think(self)
+end
+
+function SWEP:GetPrimaryCone()
+    local cone = self.Primary.Cone or 0.2
+    
+    return self:GetIronsights() and (cone * self.Primary.ADSBonus) or cone
+end
+
+----------==========                     ==========----------

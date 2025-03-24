@@ -5,18 +5,18 @@ SWEP.Slot                   = 2                                         -- 0 = k
 SWEP.Kind                   = WEAPON_HEAVY                              -- WEAPON_HEAVY, WEAPON_PISTOL, WEAPON_NADE, WEAPON_EQUIP1, WEAPON_EQUIP2
 SWEP.HoldType               = "ar2"
 
-SWEP.AmmoEnt                = "item_ammo_pistol_ttt"
-SWEP.Primary.Ammo           = "Pistol"                                  -- AlyxGun = revolver, 357 = 357 (sniper), Buckshot = box_buckshot (shotgun), Pistol = pistol, SMG1 = smg1
-SWEP.Primary.Recoil         = 0.8
-SWEP.Primary.Damage         = 19
-SWEP.Primary.Delay          = 0.14
-SWEP.Primary.Cone           = 0.018 
-SWEP.Primary.ADSBonus       = 0.15
-SWEP.Primary.ClipSize       = 20
-SWEP.Primary.DefaultClip    = 20
+SWEP.AmmoEnt                = "item_ammo_smg1_ttt"
+SWEP.Primary.Ammo           = "SMG1"                                    -- AlyxGun = revolver, 357 = 357 (sniper), Buckshot = box_buckshot (shotgun), Pistol = pistol, SMG1 = smg1
+SWEP.Primary.Recoil         = 1.2
+SWEP.Primary.Damage         = 22
+SWEP.Primary.Delay          = 0.17
+SWEP.Primary.Cone           = 0.02 
+SWEP.Primary.ADSBonus       = 0.5
+SWEP.Primary.ClipSize       = 30
+SWEP.Primary.DefaultClip    = 30
 SWEP.Primary.Automatic      = true
 SWEP.Primary.Sound          = Sound("Weapon_M4A4.Fire")               -- The shooting sound.
-SWEP.HeadshotMultiplier     = 2
+SWEP.HeadshotMultiplier     = 2.2
 
 function SWEP:SetZoom(state)
     if not (IsValid(self:GetOwner()) and self:GetOwner():IsPlayer()) then return end
