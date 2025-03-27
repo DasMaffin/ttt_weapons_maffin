@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+ "$basetexture" "VGUI/ttt/m4/dragonking/icon_dragonking"
+ "$vertexcolor" 1
+ "$vertexalpha" 1
+ "$translucent" 1
+}

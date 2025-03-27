@@ -1,5 +1,10 @@
 sound.Add({ name = "Weapon_D16D2.MagIn", channel = CHAN_ITEM, volume = 1.0, sound = "weapons/d16d2/m16a2_magin.wav" })
 sound.Add({ name = "Weapon_D16D2.MagOut", channel = CHAN_ITEM, volume = 1.0, sound = "weapons/d16d2/m16a2_magout.wav" })
+sound.Add({ name = "Weapon_D16D2.MagOutEmpty", channel = CHAN_ITEM, volume = 1.0, sound = "weapons/d16d2/m16a2_magout_empty.wav" })
+sound.Add({ name = "Weapon_D16D2.MagHousing", channel = CHAN_ITEM, volume = 1.0, sound = "weapons/d16d2/m16a2_maghousing.wav" })
+sound.Add({ name = "Weapon_D16D2.ChargeBack", channel = CHAN_ITEM, volume = 1.0, sound = "weapons/d16d2/m16a2_chargeback.wav" })
+sound.Add({ name = "Weapon_D16D2.ReleaseHandle", channel = CHAN_ITEM, volume = 1.0, sound = "weapons/d16d2/m16a2_releasehandle.wav" })
+sound.Add({ name = "Weapon_D16D2.BoltCatch", channel = CHAN_ITEM, volume = 1.0, sound = "weapons/d16d2/m16a2_boltcatch.wav" })
 
 SWEP.Base = "m4a1_base"
 DEFINE_BASECLASS("m4a1_base")

@@ -27,7 +27,6 @@ SWEP.WorldModel             = ""
 
 SWEP.ViewModelFlip          = false
 SWEP.Icon                   = "vgui/ttt/icon_deagle"
-SWEP.Base                   = "weapon_tttbase"
 SWEP.AutoSpawnable          = false
 SWEP.IronSightsPos          = nil               -- Vector(-5.95, -4, 2.799)
 SWEP.IronSightsAng          = nil               -- Vector(0, 0, 0)
@@ -41,20 +40,27 @@ SWEP.Primary.ClipMax        = 36                -- We set this so in ttt bullets
 SWEP.Author                 = "Maffin"
 SWEP.UseHands               = true
 DEFINE_BASECLASS("weapon_tttbase")
+SWEP.Base                   = "weapon_tttbase"
 
 function SWEP:Reload()
 	if self:Clip1() == self.Primary.ClipSize or self:GetOwner():GetAmmoCount( self.Primary.Ammo ) <= 0 then return end
 	self:DefaultReload( ACT_VM_RELOAD )
-	self:SetIronsights( false )
 	self:SetZoom( false )
-    BaseClass.Reload(self)
+	
+	if engine.ActiveGamemode() == "terrortown" then
+		self:SetIronsights( false )
+    	BaseClass.Reload(self)
+	end
 end
 
 function SWEP:Think()
-	if self:GetOwner():KeyPressed( IN_RELOAD ) and not self:GetIronsights() then
+	if self:GetOwner():KeyPressed( IN_RELOAD ) and (engine.ActiveGamemode() ~= "terrortown" or engine.ActiveGamemode() == "terrortown" and not self:GetIronsights()) then
 		self:SendWeaponAnim( ACT_VM_FIDGET )
     end
-    BaseClass.Think(self)
+
+	if engine.ActiveGamemode() == "terrortown" then
+    	BaseClass.Think(self)
+	end
 end
 
 function SWEP:GetPrimaryCone()

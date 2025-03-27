@@ -13,7 +13,7 @@ SWEP.PrintName              = "M4A1-S | Hyper Beast"
 
 SWEP.ViewModel				= Model("models/weapons/rif_m4a1s/v_m4a1s.mdl")
 SWEP.WorldModel				= Model("models/weapons/rif_m4a1s/w_m4a1s.mdl")
-SWEP.Icon                   = "vgui/ttt/weapon_m4a1_hyperbeast"
+SWEP.Icon                   = "vgui/ttt/m4/hyperbeast/weapon_m4a1_hyperbest"
 
 SWEP.IronSightsPos			= Vector( -5.265, 0, 2.17 )
 SWEP.IronSightsAng			= Vector( 1.2, -0.1, 0 )

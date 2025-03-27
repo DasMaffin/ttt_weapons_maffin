@@ -32,9 +32,11 @@ function SWEP:SecondaryAttack()
     if self:GetNextSecondaryFire() > CurTime() then return end
     self:SendWeaponAnim( ACT_VM_IDLE )
 
-    local bIronsights = not self:GetIronsights()
+    if engine.ActiveGamemode() == "terrortown" then
+        local bIronsights = not self:GetIronsights()
 
-    self:SetIronsights( bIronsights )
+        self:SetIronsights( bIronsights )
+    end
 
     self:SetZoom( bIronsights )
 
@@ -55,12 +57,14 @@ end
 
 if CLIENT then
     function SWEP:DrawHUD()
-        if self:GetIronsights() then return end
+        if engine.ActiveGamemode() == "terrortown" and self:GetIronsights() then return end
 
         return BaseClass.DrawHUD(self)
     end
 
-    function SWEP:AdjustMouseSensitivity()
-        return (self:GetIronsights() and 0.2) or nil
+    if engine.ActiveGamemode() == "terrortown" then
+        function SWEP:AdjustMouseSensitivity()
+            return (self:GetIronsights() and 0.2) or nil
+        end
     end
 end

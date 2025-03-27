@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\weapons\kalashnikov\beast\eyes"
+	"$additive" 	"1"
+	"$Selfillum"	"1"
+
+}

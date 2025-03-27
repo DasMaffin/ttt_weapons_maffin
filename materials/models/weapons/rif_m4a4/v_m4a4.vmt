@@ -1,0 +1,22 @@
+VertexLitGeneric
+{
+	"$basetexture"		"models\weapons\rif_m4a4\v_m4a4"
+	"$phongexponenttexture"	"models\weapons\rif_m4a4\v_m4a4_exp"
+
+	"$phong" "1"
+
+	//"$phongboost" "2"
+	"$phongalbedoboost" "25"
+	"$phongfresnelranges" "[.83 .83 1]"
+
+	"$basemapalphaphongmask" "1"
+
+	"$phongalbedotint" "1"
+
+	"$phongdisablehalflambert" "1"
+
+
+	"$envmapfresnel" "1"
+	"$envmaptint" 		"[.15 .15 .15]"
+
+}

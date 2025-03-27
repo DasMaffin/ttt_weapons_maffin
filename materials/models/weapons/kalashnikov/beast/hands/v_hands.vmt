@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+"$basetexture" "models\weapons\kalashnikov\beast\hands\v_hands_cso d"
+"$bumpmap" "models\weapons\kalashnikov\beast\hands\v_hands_cso n"
+"$phong" "1"
+"$phongboost" "1"
+"$phongfresnelranges" "[0.02 0.02 0.02]"
+"$phongalbedotint" "1"
+"$halflambert" "1"
+}

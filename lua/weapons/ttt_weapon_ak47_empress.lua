@@ -11,7 +11,7 @@ SWEP.PrintName              = "AK-47 | The Empress"
 
 SWEP.ViewModel				= Model( "models/weapons/rif_ak47/v_ak47.mdl" )
 SWEP.WorldModel				= Model( "models/weapons/rif_ak47/w_ak47.mdl" )
-SWEP.Icon                   = "vgui/ttt/weapon_m4a1_hyperbeast"
+SWEP.Icon                   = "vgui/ttt/kalashnikov/empress/weapon_kalash_empress"
 
 SWEP.IronSightsPos			= Vector( -4.98, 0, 2.77 )
 SWEP.IronSightsAng			= Vector( 1.1, 0.14, -2 )
@@ -19,3 +19,4 @@ SWEP.IronSightsAng			= Vector( 1.1, 0.14, -2 )
 SWEP.AmmoEnt                = "item_ammo_smg1_ttt"
 SWEP.Primary.Ammo           = "SMG1"
 SWEP.HoldType               = "ar2"
+SWEP.Kind                   = WEAPON_HEAVY                              -- WEAPON_HEAVY, WEAPON_PISTOL, WEAPON_NADE, WEAPON_EQUIP1, WEAPON_EQUIP2
