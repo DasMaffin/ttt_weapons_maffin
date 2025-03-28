@@ -1,0 +1,23 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\rif_aug\w_aug"
+
+	"$phong" "1"
+	"$phongboost" "1.2"
+	"$phongalbedoboost" "80"
+	"$phongfresnelranges" "[.83 .83 1]"
+	"$phongexponenttexture" "models\weapons\rif_aug\w_aug_exp"
+
+	"$basemapalphaphongmask" "1"
+
+	"$envmapfresnel" "1"
+	"$envmaptint" 		"[.5 .5 .5]"
+
+	"$phongalbedotint" "1"
+
+	"$phongdisablehalflambert" "1"
+}
+
+
+	
+
