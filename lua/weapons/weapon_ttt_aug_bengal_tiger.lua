@@ -27,5 +27,4 @@ SWEP.Kind                   = WEAPON_HEAVY                              -- WEAPO
 SWEP.Spawnable 				= true
 
 
-SWEP.Primary.FireSound		= Sound( "Weapon_AUG.Fire" ) 
--- SWEP.Primary.EmptySound     = Sound( "weapons/clipempty_rifle.wav" )
+SWEP.Primary.Sound		= Sound( "Weapon_AUG.Fire" )
