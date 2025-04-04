@@ -1,0 +1,30 @@
+
+VertexLitGeneric
+{
+	"$baseTexture" "models\weapons\auto_sniper\g3sg1\flux\w_g3sg1"
+	"$phongexponenttexture" "models\weapons\auto_sniper\g3sg1\flux\w_g3sg1_exp"
+
+	"$phong" "0"
+
+
+	"$phongboost" "1"
+	"$phongalbedoboost" "55"
+	"$phongfresnelranges" "[.83 .83 1]"
+
+	"$basemapalphaphongmask" "1"
+
+	"$phongalbedotint" "1"
+
+	"$phongdisablehalflambert" "1"
+
+
+	"$envmapfresnel" "1"
+	"$envmaptint" 		"[.2 .2 .2]"
+
+}
+
+
+
+
+
+

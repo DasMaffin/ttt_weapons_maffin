@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+"$basetexture" "models\weapons\auto_sniper\xbow\frame crossbow d"
+"$bumpmap" "models\weapons\auto_sniper\xbow\frame crossbow n"
+"$phong" "1"
+"$phongboost" "1"
+"$phongfresnelranges" "[0.09 0.09 0.09]"
+"$phongalbedotint" "1"
+"$halflambert" "1"
+}
