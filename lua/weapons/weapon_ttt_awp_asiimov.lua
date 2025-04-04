@@ -20,7 +20,7 @@ SWEP.IronSightsAng			= Vector( 0, 0, 0 )
 
 SWEP.AmmoEnt                = "item_ammo_357_ttt"
 SWEP.Primary.Ammo           = "357"
-SWEP.HoldType               = "ar2"
+SWEP.HoldType               = "rpg"
 SWEP.Kind                   = WEAPON_HEAVY                              -- WEAPON_HEAVY, WEAPON_PISTOL, WEAPON_NADE, WEAPON_EQUIP1, WEAPON_EQUIP2
 SWEP.Spawnable 				= true
 SWEP.ViewModelFlip          = true

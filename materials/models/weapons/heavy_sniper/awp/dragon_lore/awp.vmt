@@ -1,0 +1,14 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\weapons\heavy_sniper\awp\dragon_lore\awp"
+
+	"$basemapalphaphongmask" "1"
+	
+	"$envmap" "env_cubemap"
+	"$envmapfresnel" "1"
+	"$envmaptint" 		"[.1 .1 .1]"
+
+	"$phongalbedotint" "1"
+	"$phongdisablehalflambert" "1"
+
+}
