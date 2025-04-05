@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+"$basetexture" "models\weapons\kalashnikov\ethereal\SF Ethereal Body D"
+"$bumpmap" "models\weapons\kalashnikov\ethereal\SF Ethereal Body N"
+"$phong" "1"
+"$phongboost" "1"
+"$phongfresnelranges" "[0.05 0.05 0.05]"
+"$phongalbedotint" "1"
+"$halflambert" "1"
+}

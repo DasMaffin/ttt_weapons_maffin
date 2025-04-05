@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\weapons\heavy_sniper\l96\dragon\Dragon_Eyes"
+	"$additive" 	"1"
+	"$Selfillum"	"1"
+
+}

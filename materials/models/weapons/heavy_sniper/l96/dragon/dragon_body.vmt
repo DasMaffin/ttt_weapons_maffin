@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 	"models\weapons\heavy_sniper\l96\dragon\Dragon_Body"
+	"$bumpmap" 	"models\weapons\heavy_sniper\l96\dragon\Dragon_Body_Nml"
+	  "$envmap" "env_cubemap"
+	  "$envmapmask" "models\weapons\heavy_sniper\l96\dragon\Dragon_Body_ref"
+	  "$chrome"                 "1"
+	"$normalmapalphaenvmapmask" "1"
+	"$phong" 		"1"
+	"$phongexponent" 	"5"
+	"$phongboost" ".5"
+	"$phongfresnelranges" "[.9 1.5 1]"
+}
+

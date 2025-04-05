@@ -1,0 +1,6 @@
+ VertexLitGeneric
+{
+        "$basetexture"   "models\weapons\heavy_sniper\l96\dragon\bullet"	
+	  "$envmap" "env_cubemap"
+	  "$envmapmask" "models\weapons\heavy_sniper\l96\dragon\bullet_ref"
+}

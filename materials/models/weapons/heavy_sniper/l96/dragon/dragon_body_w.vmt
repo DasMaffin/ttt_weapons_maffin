@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 	"models\weapons\heavy_sniper\l96\dragon\Dragon_Body"
+	"$bumpmap" 	"models\weapons\heavy_sniper\l96\dragon\Dragon_Body_Nml"
+}
+
