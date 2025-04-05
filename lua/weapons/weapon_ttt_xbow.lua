@@ -18,8 +18,3 @@ SWEP.Spawnable 				= true
 SWEP.ViewModelFlip          = true
 
 SWEP.Primary.Sound			= Sound("weapons/Xbow/Crossbow_Fire.wav")
-
-SWEP.Gun = ("scout_xbow")
-SWEP.WElements = {
-	["Scout_Xbow"] = { type = "Model", model = "models/weapons/w_snip_xxbow.mdl", bone = "ValveBiped.Bip01_R_Hand", rel = "", pos = Vector(0.634, 0.238, 1.103), angle = Angle(-6.19, -0.9, 180), size = Vector(1, 1, 1), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {} }
-}

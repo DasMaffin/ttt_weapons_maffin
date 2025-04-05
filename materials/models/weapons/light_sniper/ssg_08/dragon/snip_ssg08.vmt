@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+	$basetexture  "models\weapons\light_sniper\ssg_08\dragon\snip_ssg08"
+	"$bumpMap" "models/weapons/light_sniper/ssg_08/dragon/snip_ssg08_normal"
+	$phongexponenttexture  "models\weapons\light_sniper\ssg_08\dragon\snip_ssg08_exponent"
+	"$phong" "1"
+	"$phongexponent" "100"
+	"$phongboost" "1"	
+	"$phongfresnelranges" "[1 1 1]"
+	"$halflambert" "1"
+}
