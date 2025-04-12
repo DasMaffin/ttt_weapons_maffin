@@ -33,5 +33,5 @@ end
 
 function SWEP:Deploy()
     self.Weapon:EmitSound("weapons/deagle/de_draw.wav")
-    BaseClass.Reload(self)
+    BaseClass.Deploy(self)
 end

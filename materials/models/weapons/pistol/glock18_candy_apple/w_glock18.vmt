@@ -1,0 +1,20 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\pistol\glock18_candy_apple\w_glock18"
+
+	"$phong" "1"
+	"$phongboost" "1"
+	"$phongalbedoboost" "35"
+	"$phongfresnelranges" "[.83 .83 1]"
+	"$phongexponenttexture" "models\weapons\pistol\glock18_candy_apple\w_glock18_exp"
+
+	"$basemapalphaphongmask" "1"
+
+	"$envmapfresnel" "1"
+	"$envmaptint" 		"[.25 .25 .25]"
+
+	"$phongalbedotint" "1"
+
+	"$phongdisablehalflambert" "1"
+}
+

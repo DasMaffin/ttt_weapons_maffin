@@ -1,0 +1,29 @@
+
+	"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\pistol\dual_berettas_duelist\w_elite"
+	"$phongexponenttexture" "models\weapons\pistol\dual_berettas_duelist\w_elite_exp"
+	"$phong" "1"
+
+
+	"$phongboost" "1.5"
+	"$phongalbedoboost" "15"
+	"$phongfresnelranges" "[.83 .83 1]"
+
+	"$basemapalphaphongmask" "1"
+
+	"$phongalbedotint" "1"
+
+	"$phongdisablehalflambert" "1"
+
+	"$envmapfresnel" "1"
+	"$envmaptint" 		"[.2 .2 .2]"
+
+	
+}
+
+
+
+
+
+

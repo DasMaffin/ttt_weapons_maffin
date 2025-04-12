@@ -1,0 +1,25 @@
+
+	"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\pistol_s\usp\traitor\v_usps"
+		"$phongexponenttexture" "models\weapons\pistol_s\usp\traitor\v_usps_exp"
+	"$phong" "0"
+
+
+	"$phongboost" "8"
+	"$phongalbedoboost" "80"
+	"$phongfresnelranges" "[.83 .83 1]"
+
+	"$basemapalphaphongmask" "1"
+
+	"$phongalbedotint" "1"
+
+	"$phongdisablehalflambert" "1"
+
+
+	"$envmapfresnel" "1"
+	"$envmaptint" 		"[.2 .2 .2]"
+
+	
+}
+

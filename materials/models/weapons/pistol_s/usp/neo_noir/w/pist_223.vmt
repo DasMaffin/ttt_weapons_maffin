@@ -1,0 +1,10 @@
+        "VertexLitGeneric"
+{
+        "$baseTexture" "models\weapons\pistol_s\usp\neo_noir\v\pist_223"
+ 
+        "$envmap" "env_cubemap"
+        "$envmapfresnel" "1"
+        "$envmaptint"           "[.0 .0 .0]"
+ 
+       
+}
