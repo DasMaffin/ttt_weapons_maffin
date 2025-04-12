@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 	"models\weapons\m4a4\transformers\M4A1_S_TRANSFORMERS_S"
+	"$bumpmap" 	"models\weapons\m4a4\transformers\M4A1_S_TRANSFORMERS_S_NML"
+	  "$envmap" "env_cubemap"
+	"$selfillum" 1
+	"$normalmapalphaenvmapmask" "1"
+	"$phong" 		"1"
+	"$phongexponent" 	"5"
+	"$phongboost" ".5"
+	"$phongfresnelranges" "[.9 1.5 1]"
+}
+

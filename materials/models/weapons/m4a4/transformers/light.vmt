@@ -1,0 +1,17 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models\weapons\m4a4\transformers\Light"
+	"$surfaceprop" "Default"
+	"$selfillum" 1
+	"$model" 1
+	"$translucent" 1
+	"Proxies" 
+		{ 
+		"AnimatedTexture" 
+			{ 
+			"animatedTextureVar" "$basetexture" 
+			"animatedTextureFrameNumVar" "$frame" 
+			"animatedTextureFrameRate" "20" 
+			}
+		} 
+}

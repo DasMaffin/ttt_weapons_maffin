@@ -1,0 +1,23 @@
+VertexLitGeneric
+{
+	"$baseTexture" "models\weapons\deagle\blaze\w_deagle"
+
+	"$phong" "0"
+	"$phongboost" "1"
+	"$phongalbedoboost" "40"
+	"$phongfresnelranges" "[.1 .1 1]"
+//	"$phongexponent" 12
+	"$phongexponenttexture" "models\weapons\deagle\blaze\w_deagle_exp"
+
+	"$basemapalphaphongmask" "1"
+	
+	"$envmapfresnel" "1"
+	"$envmaptint" 		"[.1 .1 .1]"
+
+	"$phongalbedotint" "1"
+	"$phongdisablehalflambert" "1"
+}
+
+
+
+

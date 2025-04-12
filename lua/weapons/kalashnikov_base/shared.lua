@@ -15,8 +15,9 @@ SWEP.Primary.ADSBonus       = 0.5
 SWEP.Primary.ClipSize       = 30
 SWEP.Primary.DefaultClip    = 30
 SWEP.Primary.Automatic      = true
-SWEP.Primary.Sound          = Sound("Weapon_M4A4.Fire")               -- The shooting sound.
 SWEP.HeadshotMultiplier     = 2.2
+
+SWEP.Primary.Sound          = Sound("weapons/ak47/ak47redlinefire.wav")
 
 function SWEP:SetZoom(state)
     if not (IsValid(self:GetOwner()) and self:GetOwner():IsPlayer()) then return end
@@ -32,11 +33,9 @@ function SWEP:SecondaryAttack()
     if self:GetNextSecondaryFire() > CurTime() then return end
     self:SendWeaponAnim( ACT_VM_IDLE )
 
-    if engine.ActiveGamemode() == "terrortown" then
-        local bIronsights = not self:GetIronsights()
+    local bIronsights = not self:GetIronsights()
 
-        self:SetIronsights( bIronsights )
-    end
+    self:SetIronsights( bIronsights )
 
     self:SetZoom( bIronsights )
 
@@ -57,14 +56,12 @@ end
 
 if CLIENT then
     function SWEP:DrawHUD()
-        if engine.ActiveGamemode() == "terrortown" and self:GetIronsights() then return end
+        if self:GetIronsights() then return end
 
         return BaseClass.DrawHUD(self)
     end
 
-    if engine.ActiveGamemode() == "terrortown" then
-        function SWEP:AdjustMouseSensitivity()
-            return (self:GetIronsights() and 0.2) or nil
-        end
+    function SWEP:AdjustMouseSensitivity()
+        return (self:GetIronsights() and 0.2) or nil
     end
 end

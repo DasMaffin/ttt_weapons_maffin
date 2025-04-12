@@ -1,0 +1,20 @@
+VertexLitGeneric
+{
+	"$basetexture" "models\weapons\r8\blaze\w_revolver"
+	"$phong" "1"
+	
+	"$phongboost" "1"
+	"$phongalbedoboost" "80"
+	"$phongfresnelranges" "[.83 .83 1]"
+	"$phongexponenttexture" "models\weapons\r8\blaze\w_revolver_exp"
+	
+	"$phongalbedotint" "1"
+	"$phongdisablehalflambert" "1"
+
+	$basemapalphaphongmask 1
+
+	$envmapfresnel 1
+	$envmaptint 		"[.09 .09 .12]"
+	
+	$basealphaenvmapmask 1
+}
