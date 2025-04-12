@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\heavy_smg\ump45\blaze\v_ump45"
+
+	"$phong" "1"
+	"$phongboost" "444"
+	"$phongalbedoboost" "1"
+	"$phongfresnelranges" "[.83 .83 1]"
+	"$phongexponenttexture" "models\weapons\heavy_smg\ump45\blaze\v_ump45_exp"
+
+	"$basemapalphaphongmask" "0"
+
+	
+	"$envmapfresnel" "1"
+	"$envmaptint" 		"[.15 .15 .15]"
+
+	"$phongalbedotint" "0"
+
+	"$phongdisablehalflambert" "0"
+}
+
+

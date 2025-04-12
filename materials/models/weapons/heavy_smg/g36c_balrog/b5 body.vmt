@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+"$basetexture" "models\weapons\heavy_smg\g36c_balrog\B5 Body D"
+"$bumpmap" "models\weapons\heavy_smg\g36c_balrog\B5 Body N"
+"$phong" "1"
+"$phongboost" "1"
+"$phongfresnelranges" "[0.04 0.04 0.05]"
+"$phongalbedotint" "1"
+"$halflambert" "1"
+}

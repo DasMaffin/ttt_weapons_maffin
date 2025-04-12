@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+"$basetexture" "models\weapons\heavy_smg\g36c_balrog\B5 Lens D"
+"$bumpmap" "models\weapons\heavy_smg\g36c_balrog\B5 Lens N"
+"$additive" "1"
+"$model" "1"	
+"$nocull" "1"
+}
