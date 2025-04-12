@@ -1,0 +1,29 @@
+VertexLitGeneric
+{
+	"$baseTexture" "models\weapons\light_smg\mp7\fade\w_mp7"
+	"$phongexponenttexture" "models\weapons\light_smg\mp7\fade\w_mp7_exp"
+
+	"$phong" "0"
+
+
+	"$phongboost" "2"
+	"$phongalbedoboost" "25"
+	"$phongfresnelranges" "[.83 .83 1]"
+
+	"$basemapalphaphongmask" "1"
+
+	"$phongalbedotint" "1"
+
+	"$phongdisablehalflambert" "1"
+
+
+	"$envmapfresnel" "1"
+	"$envmaptint" 		"[.25 .25 .25]"
+
+}
+
+
+
+
+
+

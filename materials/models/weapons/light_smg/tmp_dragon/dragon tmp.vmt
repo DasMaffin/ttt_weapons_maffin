@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+"$basetexture" "models\weapons\light_smg\tmp_dragon\Dragon TMP D"
+"$bumpmap" "models\weapons\light_smg\tmp_dragon\Dragon TMP N"
+"$phong" "1"
+"$phongboost" "1"
+"$phongfresnelranges" "[0.04 0.04 0.05]"
+"$phongalbedotint" "1"
+"$halflambert" "1"
+}

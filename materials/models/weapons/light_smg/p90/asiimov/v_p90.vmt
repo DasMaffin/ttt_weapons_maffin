@@ -1,0 +1,26 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\light_smg\p90\asiimov\v_p90"
+
+	"$phong" "1"
+	"$phongboost" "1.2"
+	"$phongalbedoboost" "30"
+	"$phongfresnelranges" "[.83 .83 1]"
+	"$phongexponenttexture" "models\weapons\light_smg\p90\asiimov\v_p90_exp"
+
+	"$basemapalphaphongmask" "1"
+
+	"$envmapfresnel" "1"
+	"$envmaptint" 		"[.21 .21 .21]"
+
+	"$phongalbedotint" "1"
+
+	"$phongdisablehalflambert" "1"
+}
+
+
+
+
+
+
+

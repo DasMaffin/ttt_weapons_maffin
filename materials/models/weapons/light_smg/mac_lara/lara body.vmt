@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+"$basetexture" "models\weapons\light_smg\mac_lara\Lara Body D"
+"$bumpmap" "models\weapons\light_smg\mac_lara\Lara Body N"
+"$phong" "1"
+"$phongboost" "1"
+"$phongfresnelranges" "[0.04 0.04 0.05]"
+"$phongalbedotint" "1"
+"$halflambert" "1"
+}

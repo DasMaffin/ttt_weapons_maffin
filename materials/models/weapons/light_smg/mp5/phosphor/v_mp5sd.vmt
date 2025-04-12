@@ -1,0 +1,16 @@
+"vertexlitgeneric"
+{
+	"$basetexture"             "models/weapons/light_smg/mp5/phosphor/v_mp5sd"
+	"$phong"                   "1"
+	"$phongboost"              "12"
+	"$phongalbedoboost"        "8"
+	"$phongfresnelranges"      "[.83 .83 1]"
+	"$phongexponenttexture"    "models/weapons/light_smg/mp5/phosphor/v_mp5sd_exp"
+	"$phongalbedotint"         "1"
+	"$phongdisablehalflambert" "1"
+	"$basemapalphaphongmask"   "1"	
+	
+	"$envmapfresnel"           "1"
+	"$envmaptint"              "0.5"	
+	"$basealphaenvmapmask"     "1"
+}
