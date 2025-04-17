@@ -21,3 +21,5 @@ SWEP.HoldType               = "ar2"
 SWEP.Kind                   = WEAPON_HEAVY                              -- WEAPON_HEAVY, WEAPON_PISTOL, WEAPON_NADE, WEAPON_EQUIP1, WEAPON_EQUIP2
 SWEP.Primary.Sound			= Sound("weapons/AK_Beast/ak-1.wav")
 SWEP.ViewModelFlip          = true
+
+SWEP.Primary.Sound          = Sound("Weapon_AK47.Fire")

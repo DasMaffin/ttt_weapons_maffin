@@ -7,7 +7,7 @@ sound.Add( {
   sound = { 
     "weapons/shotgun/xm1014/insertshell01.wav",
     "weapons/shotgun/xm1014/insertshell02.wav",
-	"weapons/shotgun/xm1014/insertshell03.wav"
+	  "weapons/shotgun/xm1014/insertshell03.wav"
   }
 } )
 sound.Add( { name = "Weapon_XM1014.Pump", channel = CHAN_ITEM, volume = 0.70, level = SNDLVL_NORM, sound = "weapons/shotgun/xm1014/pump.wav" } )

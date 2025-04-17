@@ -22,3 +22,5 @@ SWEP.HoldType               = "ar2"
 SWEP.Kind                   = WEAPON_HEAVY                              -- WEAPON_HEAVY, WEAPON_PISTOL, WEAPON_NADE, WEAPON_EQUIP1, WEAPON_EQUIP2
 SWEP.ViewModelFlip          = true
 SWEP.Spawnable 				= true
+
+SWEP.Primary.Sound          = Sound("EjectBrass_762Nato 2 150")

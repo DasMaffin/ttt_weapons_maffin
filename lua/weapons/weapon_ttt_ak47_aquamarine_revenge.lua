@@ -1,3 +1,4 @@
+sound.Add( { name = "Weapon_AK47.Fire", channel = CHAN_WEAPON, volume = 0.90, level = SNDLVL_GUNFIRE, sound = "weapons/ak47/fire.wav" } )
 sound.Add( { name = "Weapon_AK47.ClipOut", channel = CHAN_ITEM, volume = 0.70, level = SNDLVL_NORM, sound = "weapons/ak47/clipout.wav" } )
 sound.Add( { name = "Weapon_AK47.ClipIn", channel = CHAN_ITEM, volume = 0.70, level = SNDLVL_NORM, sound = "weapons/ak47/clipin.wav" } )
 sound.Add( { name = "Weapon_AK47.BoltPull", channel = CHAN_ITEM, volume = 0.70, level = SNDLVL_NORM, sound = "weapons/ak47/bolt.wav" } )
@@ -21,3 +22,5 @@ SWEP.HoldType               = "ar2"
 SWEP.Kind                   = WEAPON_HEAVY                              -- WEAPON_HEAVY, WEAPON_PISTOL, WEAPON_NADE, WEAPON_EQUIP1, WEAPON_EQUIP2
 SWEP.ViewModelFlip          = true
 SWEP.Spawnable 				= true
+
+SWEP.Primary.Sound          = Sound("Weapon_AK47.Fire")
