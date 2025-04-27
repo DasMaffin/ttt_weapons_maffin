@@ -15,7 +15,7 @@ SWEP.Primary.ADSBonus       = 0.001
 SWEP.Primary.ClipSize       = 10
 SWEP.Primary.DefaultClip    = 10
 SWEP.Primary.Automatic      = false
-SWEP.HeadshotMultiplier     = 10000
+SWEP.HeadshotMultiplier     = 3
 
 SWEP.Secondary.ScopeZoom		= 12	
 SWEP.Secondary.UseACOG			= false -- Choose one scope type
@@ -41,7 +41,7 @@ end
 
 if CLIENT then
     function SWEP:DrawHUD()
-        if engine.ActiveGamemode() == "terrortown" and self:GetIronsights() then
+        if self:GetIronsights() then
             return BaseClass.DrawHUD(self)
         end
     end

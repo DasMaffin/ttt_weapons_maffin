@@ -47,26 +47,28 @@ function SWEP:Reload()
 	self:DefaultReload( ACT_VM_RELOAD )
 	self:SetZoom( false )
 	
-	if engine.ActiveGamemode() == "terrortown" then
-		self:SetIronsights( false )
-    	BaseClass.Reload(self)
-	end
+	self:SetIronsights( false )
+	BaseClass.Reload(self)
 end
 
 function SWEP:Think()
-	if self:GetOwner():KeyPressed( IN_RELOAD ) and (engine.ActiveGamemode() ~= "terrortown" or engine.ActiveGamemode() == "terrortown" and not self:GetIronsights()) then
+	if self:GetOwner():KeyPressed( IN_RELOAD ) and not self:GetIronsights() then
 		self:SendWeaponAnim( ACT_VM_FIDGET )
     end
-
-	if engine.ActiveGamemode() == "terrortown" then
-    	BaseClass.Think(self)
-	end
+	BaseClass.Think(self)
 end
 
+SWEP.Primary.WasMultiplied = false
+
 function SWEP:GetPrimaryCone()
-    local cone = self.Primary.Cone or 0.2
-    
-    return self:GetIronsights() and (cone * self.Primary.ADSBonus) or cone
+	if self:GetIronsights() and self.Primary.WasMultiplied == false then
+		self.Primary.WasMultiplied = true
+		self.Primary.Cone = self.Primary.Cone * self.Primary.ADSBonus		
+	elseif not self:GetIronsights() and self.Primary.WasMultiplied == true then
+		self.Primary.WasMultiplied = false
+		self.Primary.Cone = self.Primary.Cone / self.Primary.ADSBonus
+	end
+    return self.Primary.Cone
 end
 
 ----------==========                     ==========----------

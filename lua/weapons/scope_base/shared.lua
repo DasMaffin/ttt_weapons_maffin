@@ -222,9 +222,7 @@ if CLIENT then
         return BaseClass.DrawHUD(self)
     end
 
-    if engine.ActiveGamemode() == "terrortown" then
-        function SWEP:AdjustMouseSensitivity()
-            return (self:GetIronsights() and 0.2) or nil
-        end
+    function SWEP:AdjustMouseSensitivity()
+        return (self:GetIronsights() and 0.2) or nil
     end
 end

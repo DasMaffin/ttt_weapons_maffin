@@ -9,7 +9,7 @@ SWEP.AmmoEnt                = "item_ammo_pistol_ttt"
 SWEP.Primary.Ammo           = "Pistol"                                  -- AlyxGun = revolver, 357 = 357 (sniper), Buckshot = box_buckshot (shotgun), Pistol = pistol, SMG1 = smg1
 SWEP.Primary.Recoil         = 0.8
 SWEP.Primary.Damage         = 19
-SWEP.Primary.Delay          = 0.14
+SWEP.Primary.Delay          = 0.112
 SWEP.Primary.Cone           = 0.018 
 SWEP.Primary.ADSBonus       = 0.15
 SWEP.Primary.ClipSize       = 20
