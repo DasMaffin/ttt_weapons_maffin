@@ -17,6 +17,7 @@ sound.Add( {
 SWEP.Base = "pistol_base"
 DEFINE_BASECLASS("pistol_base")
 
+SWEP.ClassName              = "weapon_ttt_glock18_candy_apple"
 SWEP.PrintName              = "Glock-18 | Candy Apple"
 
 SWEP.ViewModel				      = Model( "models/weapons/pistol/glock18_candy_apple/v_glock18.mdl" )

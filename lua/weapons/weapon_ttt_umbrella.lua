@@ -7,6 +7,7 @@ sound.Add({ name = "Umbrella Gun.Draw", channel = CHAN_ITEM, volume = 1.0, sound
 SWEP.Base = "shotgun_base"
 DEFINE_BASECLASS("shotgun_base")
 
+SWEP.ClassName              = "weapon_ttt_umbrella"
 SWEP.PrintName              = "M3 | Umbrella"
 
 SWEP.ViewModel				= Model( "models/weapons/shotgun/m3_umbrella/v_shot_m3umbrela.mdl" )

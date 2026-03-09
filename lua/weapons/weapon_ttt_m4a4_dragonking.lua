@@ -10,6 +10,7 @@ sound.Add( { name = "TFA_CSGO_M4A4.Draw", channel = CHAN_STATIC, volume = 0.70, 
 SWEP.Base = "m4a1_base"
 DEFINE_BASECLASS("m4a1_base")
 
+SWEP.ClassName              = "weapon_ttt_m4a4_dragonking"
 SWEP.PrintName              = "M4A4 | Dragon King"
 
 SWEP.ViewModel				= Model("models/weapons/tfa_csgo/c_m4a4.mdl")

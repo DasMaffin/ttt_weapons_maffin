@@ -6,6 +6,7 @@ sound.Add({ name = "Weapon_CFAWP.Clipin", channel = CHAN_ITEM, volume = 1.0, sou
 SWEP.Base = "heavy_sniper_base"
 DEFINE_BASECLASS("heavy_sniper_base")
 
+SWEP.ClassName              = "weapon_ttt_l96_dragon"
 SWEP.PrintName              = "L96 | Dragon"
 
 SWEP.ViewModel				= Model( "models/weapons/heavy_sniper/l96/dragon/v_snip_awp.mdl" )

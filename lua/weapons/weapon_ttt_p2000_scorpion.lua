@@ -18,6 +18,7 @@ sound.Add( { name = "Weapon_P2000.Draw", channel = CHAN_STATIC, volume = 0.70, l
 SWEP.Base = "pistol_base"
 DEFINE_BASECLASS("pistol_base")
 
+SWEP.ClassName              = "weapon_ttt_p2000_scorpion"
 SWEP.PrintName              = "P2000 | Scorpion"
 
 SWEP.ViewModel				= Model( "models/weapons/pistol/p2000_scorpion/v_p2000.mdl" )

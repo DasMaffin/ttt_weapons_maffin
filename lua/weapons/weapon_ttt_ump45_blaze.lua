@@ -17,6 +17,7 @@ sound.Add( { name = "Weapon_UMP45.Draw", channel = CHAN_STATIC, volume = 0.70, l
 SWEP.Base = "heavy_smg_base"
 DEFINE_BASECLASS("heavy_smg_base")
 
+SWEP.ClassName              = "weapon_ttt_ump45_blaze"
 SWEP.PrintName              = "UMP-45 | Blaze"
 
 SWEP.ViewModel				= Model( "models/weapons/heavy_smg/ump45/blaze/v_ump45.mdl" )

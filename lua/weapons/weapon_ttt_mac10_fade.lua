@@ -18,6 +18,7 @@ sound.Add( {
 SWEP.Base = "light_smg_base"
 DEFINE_BASECLASS("light_smg_base")
 
+SWEP.ClassName              = "weapon_ttt_mac10_fade"
 SWEP.PrintName              = "Mac-10 | Fade"
 
 SWEP.ViewModel				= Model( "models/weapons/light_smg/mac10/fade/v_mac10.mdl" )

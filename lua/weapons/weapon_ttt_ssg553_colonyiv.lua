@@ -11,6 +11,7 @@ sound.Add( { name = "Weapon_SG553.ZoomOut", channel = CHAN_STATIC, volume = 0.70
 SWEP.Base = "aug_base"
 DEFINE_BASECLASS("aug_base")
 
+SWEP.ClassName              = "weapon_ttt_ssg553_colonyiv"
 SWEP.PrintName              = "SG 553 | Colony IV"
 
 SWEP.ViewModel				= Model( "models/weapons/aug/sg553_colonyiv/v_sg553.mdl" )

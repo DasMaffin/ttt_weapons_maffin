@@ -8,6 +8,7 @@ sound.Add( { name = "Weapon_MP5SD.Draw", channel = CHAN_STATIC, volume = 0.70, l
 SWEP.Base = "light_smg_base"
 DEFINE_BASECLASS("light_smg_base")
 
+SWEP.ClassName              = "weapon_ttt_mp5_phosphor"
 SWEP.PrintName              = "MP-5 SD | Phosphor"
 
 SWEP.ViewModel				= Model( "models/weapons/light_smg/mp5/phosphor/v_mp5sd.mdl" )

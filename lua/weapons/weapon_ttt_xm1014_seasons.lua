@@ -16,6 +16,7 @@ sound.Add( { name = "Weapon_XM1014.Draw", channel = CHAN_ITEM, volume = 0.70, le
 SWEP.Base = "shotgun_base"
 DEFINE_BASECLASS("shotgun_base")
 
+SWEP.ClassName              = "weapon_ttt_xm1014_seasons"
 SWEP.PrintName              = "XM1014 | Seasons"
 
 SWEP.ViewModel				= Model( "models/weapons/shotgun/xm1014/seasons/v_xm1014.mdl" )

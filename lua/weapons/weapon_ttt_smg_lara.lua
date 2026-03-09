@@ -5,6 +5,7 @@ sound.Add({ name = "Lara.Reload", channel = CHAN_ITEM, volume = 1.0, sound = "we
 SWEP.Base = "light_smg_base"
 DEFINE_BASECLASS("light_smg_base")
 
+SWEP.ClassName              = "weapon_ttt_smg_lara"
 SWEP.PrintName              = "LZ-1 | Lara"
 
 SWEP.ViewModel				= Model( "models/weapons/light_smg/mac_lara/v_smg_macla.mdl" )

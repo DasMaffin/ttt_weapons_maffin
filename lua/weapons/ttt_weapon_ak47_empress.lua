@@ -7,6 +7,7 @@ sound.Add( { name = "Weapon_AK47.Draw", channel = CHAN_STATIC, volume = 0.70, le
 SWEP.Base = "kalashnikov_base"
 DEFINE_BASECLASS("kalashnikov_base")
 
+SWEP.ClassName              = "ttt_weapon_ak47_empress"
 SWEP.PrintName              = "AK-47 | The Empress"
 
 SWEP.ViewModel				= Model( "models/weapons/rif_ak47/v_ak47.mdl" )

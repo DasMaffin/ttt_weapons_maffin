@@ -10,6 +10,7 @@ sound.Add( { name = "Weapon_AWP.Zoom", channel = CHAN_STATIC, volume = 0.70, lev
 SWEP.Base = "heavy_sniper_base"
 DEFINE_BASECLASS("heavy_sniper_base")
 
+SWEP.ClassName              = "weapon_ttt_awp_dragon_lore"
 SWEP.PrintName              = "AWP | Dragon Lore"
 
 SWEP.ViewModel				= Model( "models/weapons/heavy_sniper/awp/dragon_lore/v_cloutawp.mdl" )

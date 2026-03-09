@@ -9,6 +9,7 @@ sound.Add({ name = "Weapon_awp_cliphit", channel = CHAN_ITEM, volume = 1.0, soun
 SWEP.Base = "heavy_sniper_base"
 DEFINE_BASECLASS("heavy_sniper_base")
 
+SWEP.ClassName              = "weapon_ttt_awp_asiimov"
 SWEP.PrintName              = "AWP | Asiimov"
 
 SWEP.ViewModel				= Model( "models/weapons/heavy_sniper/awp/asiimov/v_asii_awp.mdl" )

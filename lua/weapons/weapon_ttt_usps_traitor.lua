@@ -18,6 +18,7 @@ sound.Add( {
 SWEP.Base = "pistol_base"
 DEFINE_BASECLASS("pistol_base")
 
+SWEP.ClassName              = "weapon_ttt_usps_traitor"
 SWEP.PrintName              = "USP-S | The Traitor"
 
 SWEP.ViewModel				= Model( "models/weapons/pistol_s/usp/traitor/v_usps.mdl" )

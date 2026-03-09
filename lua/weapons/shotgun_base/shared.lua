@@ -8,14 +8,14 @@ SWEP.HoldType               = "shotgun"
 SWEP.AmmoEnt                = "item_box_buckshot_ttt"
 SWEP.Primary.Ammo           = "Buckshot"                                    -- AlyxGun = revolver, 357 = 357 (sniper), Buckshot = box_buckshot (shotgun), Pistol = pistol, SMG1 = smg1
 SWEP.Primary.Recoil         = 1.2
-SWEP.Primary.Damage         = 7
+SWEP.Primary.Damage         = 11
 SWEP.Primary.Delay          = 0.857
-SWEP.Primary.Cone           = 0.2 
-SWEP.Primary.ADSBonus       = 0.9
+SWEP.Primary.Cone           = 0.18 
+SWEP.Primary.ADSBonus       = 0.85
 SWEP.Primary.ClipSize       = 8
 SWEP.Primary.DefaultClip    = 8
 SWEP.Primary.Automatic      = true
-SWEP.Primary.NumShots       = 12
+SWEP.Primary.NumShots       = 14
 SWEP.HeadshotMultiplier     = 2
 
 function SWEP:SetZoom(state)

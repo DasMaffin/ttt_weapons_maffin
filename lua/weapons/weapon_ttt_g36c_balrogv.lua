@@ -7,6 +7,7 @@ sound.Add({ name = "B5.Deploy", channel = CHAN_ITEM, volume = 1.0, sound = "weap
 SWEP.Base = "heavy_smg_base"
 DEFINE_BASECLASS("heavy_smg_base")
 
+SWEP.ClassName              = "weapon_ttt_g36c_balrogv"
 SWEP.PrintName              = "G36C | Balrog V"
 
 SWEP.ViewModel				= Model( "models/weapons/heavy_smg/g36c_balrog/v_rifl_g36b.mdl" )

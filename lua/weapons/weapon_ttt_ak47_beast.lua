@@ -6,6 +6,7 @@ sound.Add( { name = "Weapon_AKMP.BoltPull", channel = CHAN_ITEM, volume = 0.70, 
 SWEP.Base = "kalashnikov_base"
 DEFINE_BASECLASS("kalashnikov_base")
 
+SWEP.ClassName              = "weapon_ttt_ak47_beast"
 SWEP.PrintName              = "AK-47 | Beast"
 
 SWEP.ViewModel				= Model( "models/weapons/kalashnikov/beast/v_rif_ak47.mdl" )

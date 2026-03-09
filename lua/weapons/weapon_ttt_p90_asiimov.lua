@@ -20,6 +20,7 @@ sound.Add( {
 SWEP.Base = "light_smg_base"
 DEFINE_BASECLASS("light_smg_base")
 
+SWEP.ClassName              = "weapon_ttt_p90_asiimov"
 SWEP.PrintName              = "P90 | Asiimov"
 
 SWEP.ViewModel				= Model( "models/weapons/light_smg/p90/asiimov/v_p90.mdl" )

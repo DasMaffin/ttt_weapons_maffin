@@ -19,6 +19,7 @@ sound.Add( {
 SWEP.Base = "heavy_sniper_base"
 DEFINE_BASECLASS("heavy_sniper_base")
 
+SWEP.ClassName              = "weapon_ttt_awp_fade"
 SWEP.PrintName              = "AWP | Fade"
 
 SWEP.ViewModel				= Model( "models/weapons/heavy_sniper/awp/fade/v_awp.mdl" )

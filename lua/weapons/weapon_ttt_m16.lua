@@ -9,6 +9,7 @@ sound.Add({ name = "Weapon_D16D2.BoltCatch", channel = CHAN_ITEM, volume = 1.0, 
 SWEP.Base = "m4a1_base"
 DEFINE_BASECLASS("m4a1_base")
 
+SWEP.ClassName              = "weapon_ttt_m16"
 SWEP.PrintName              = "M16"
 
 SWEP.ViewModel				= Model("models/weapons/view/rifles/d16d2/d16d2.mdl")

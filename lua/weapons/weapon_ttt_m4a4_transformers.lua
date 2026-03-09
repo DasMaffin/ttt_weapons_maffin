@@ -6,6 +6,7 @@ sound.Add({ name = "Weapon_CFM4A2.Boltpull", channel = CHAN_ITEM, volume = 1.0, 
 SWEP.Base = "m4a1_base"
 DEFINE_BASECLASS("m4a1_base")
 
+SWEP.ClassName              = "weapon_ttt_m4a4_transformers"
 SWEP.PrintName              = "M4A1 | Transformers"
 
 SWEP.ViewModel				= Model("models/weapons/m4a4/transformers/v_rif_m4.mdl")

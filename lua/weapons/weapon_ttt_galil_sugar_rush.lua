@@ -8,6 +8,7 @@ sound.Add( { name = "Weapon_Galil.Draw", channel = CHAN_STATIC, volume = 0.70, l
 SWEP.Base = "kalashnikov_base"
 DEFINE_BASECLASS("kalashnikov_base")
 
+SWEP.ClassName              = "weapon_ttt_galil_sugar_rush"
 SWEP.PrintName              = "Galil AR | Sugar Rush"
 
 SWEP.ViewModel				= Model( "models/weapons/galil/sugar_rush/v_galil.mdl" )

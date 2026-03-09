@@ -7,6 +7,7 @@ sound.Add({ name = "SF_SMG.Deploy", channel = CHAN_ITEM, volume = 1.0, sound = "
 SWEP.Base = "heavy_smg_base"
 DEFINE_BASECLASS("heavy_smg_base")
 
+SWEP.ClassName              = "weapon_ttt_smg_tempest"
 SWEP.PrintName              = "SF SMG | Tempest"
 
 SWEP.ViewModel				= Model( "models/weapons/heavy_smg/smg_tempest/v_rif_temps.mdl" )

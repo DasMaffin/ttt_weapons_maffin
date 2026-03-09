@@ -1,6 +1,7 @@
 SWEP.Base = "auto_sniper_base"
 DEFINE_BASECLASS("auto_sniper_base")
 
+SWEP.ClassName              = "weapon_ttt_xbow"
 SWEP.PrintName              = "X-Bow"
 
 SWEP.ViewModel				= Model( "models/weapons/auto_sniper/xbow/v_snip_xxbow.mdl" )

@@ -19,6 +19,7 @@ sound.Add( {
 SWEP.Base = "auto_sniper_base"
 DEFINE_BASECLASS("auto_sniper_base")
 
+SWEP.ClassName              = "weapon_ttt_g3sg1_flux"
 SWEP.PrintName              = "G3SG1 | Flux"
 
 SWEP.ViewModel				= Model( "models/weapons/auto_sniper/g3sg1/flux/v_g3sg1.mdl" )

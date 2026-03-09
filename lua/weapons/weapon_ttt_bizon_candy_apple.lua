@@ -17,6 +17,7 @@ sound.Add( {
 SWEP.Base = "light_smg_base"
 DEFINE_BASECLASS("light_smg_base")
 
+SWEP.ClassName              = "weapon_ttt_bizon_candy_apple"
 SWEP.PrintName              = "PP-Bizon | Candy Apple"
 
 SWEP.ViewModel				= Model( "models/weapons/light_smg/bizon/candy_apple/v_bizon.mdl" )

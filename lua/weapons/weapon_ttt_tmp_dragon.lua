@@ -6,6 +6,7 @@ sound.Add({ name = "Dragon TMP.Deploy", channel = CHAN_ITEM, volume = 1.0, sound
 SWEP.Base = "light_smg_base"
 DEFINE_BASECLASS("light_smg_base")
 
+SWEP.ClassName              = "weapon_ttt_tmp_dragon"
 SWEP.PrintName              = "TMP | Dragon"
 
 SWEP.ViewModel				= Model( "models/weapons/light_smg/tmp_dragon/v_smg_tmd.mdl" )

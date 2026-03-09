@@ -22,6 +22,7 @@ sound.Add({
 SWEP.Base = "kalashnikov_base"
 DEFINE_BASECLASS("kalashnikov_base")
 
+SWEP.ClassName              = "weapon_ttt_ethereal"
 SWEP.PrintName              = "SF Ethereal"
 
 SWEP.ViewModel				= Model( "models/weapons/kalashnikov/ethereal/v_rif_ethe.mdl" )

@@ -11,6 +11,7 @@ sound.Add( { name = "Weapon_Revolver.Hammer", channel = CHAN_STATIC, volume = 0.
 SWEP.Base = "deagle_base"
 DEFINE_BASECLASS("deagle_base")
 
+SWEP.ClassName              = "weapon_ttt_r8revolver_blaze"
 SWEP.PrintName              = "R8 Revolver | Blaze"
 
 SWEP.ViewModel				= Model( "models/weapons/r8/blaze/v_revolver.mdl" )

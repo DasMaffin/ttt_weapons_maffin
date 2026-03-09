@@ -20,6 +20,7 @@ sound.Add( {
 SWEP.Base = "pistol_base"
 DEFINE_BASECLASS("pistol_base")
 
+SWEP.ClassName              = "weapon_ttt_dual_berettas_duelist"
 SWEP.PrintName              = "Dual Berettas | Duelist"
 
 SWEP.ViewModel				= Model( "models/weapons/pistol/dual_berettas_duelist/v_elite.mdl" )

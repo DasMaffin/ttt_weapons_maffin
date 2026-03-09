@@ -7,6 +7,7 @@ sound.Add({ name = "Guitar.Deploy", channel = CHAN_ITEM, volume = 1.0, sound = "
 SWEP.Base = "m4a1_base"
 DEFINE_BASECLASS("m4a1_base")
 
+SWEP.ClassName              = "weapon_ttt_m4a4_guitar"
 SWEP.PrintName              = "M4A1 | Guitar"
 
 SWEP.ViewModel				= Model("models/weapons/m4a4/guitar/v_smg_lmp.mdl")

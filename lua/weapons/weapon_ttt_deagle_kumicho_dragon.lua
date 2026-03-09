@@ -1,6 +1,7 @@
 SWEP.Base = "deagle_base"
 DEFINE_BASECLASS("deagle_base")
 
+SWEP.ClassName              = "weapon_ttt_deagle_kumicho_dragon"
 SWEP.PrintName              = "Deagle | Kumicho Dragon"
 
 SWEP.ViewModel				= Model( "models/weapons/deagle/kumicho_dragon/v_pist_deagle.mdl" )

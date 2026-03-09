@@ -8,6 +8,7 @@ sound.Add( { name = "Weapon_P250.Draw", channel = CHAN_STATIC, volume = 0.70, le
 SWEP.Base = "pistol_base"
 DEFINE_BASECLASS("pistol_base")
 
+SWEP.ClassName              = "weapon_ttt_p250_cartel"
 SWEP.PrintName              = "P250 | Cartel"
 
 SWEP.ViewModel				= Model( "models/weapons/pistol/p250_cartel/v_p250.mdl" )

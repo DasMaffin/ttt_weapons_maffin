@@ -19,6 +19,7 @@ sound.Add( {
 SWEP.Base = "light_smg_base"
 DEFINE_BASECLASS("light_smg_base")
 
+SWEP.ClassName              = "weapon_ttt_mp9_rose_iron"
 SWEP.PrintName              = "MP9 | Rose Iron"
 
 SWEP.ViewModel				= Model( "models/weapons/light_smg/mp9/rose_iron/v_mp9.mdl" )

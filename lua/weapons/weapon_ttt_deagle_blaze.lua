@@ -26,6 +26,7 @@ sound.Add( {
 SWEP.Base = "deagle_base"
 DEFINE_BASECLASS("deagle_base")
 
+SWEP.ClassName              = "weapon_ttt_deagle_blaze"
 SWEP.PrintName              = "Deagle | Blaze"
 
 SWEP.ViewModel				= Model( "models/weapons/deagle/blaze/v_deagle.mdl" )

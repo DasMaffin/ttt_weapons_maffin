@@ -17,6 +17,7 @@ sound.Add( { name = "Weapon_Nova.Draw", channel = CHAN_ITEM, volume = 0.70, leve
 SWEP.Base = "shotgun_base"
 DEFINE_BASECLASS("shotgun_base")
 
+SWEP.ClassName              = "weapon_ttt_nova_hyperbeast"
 SWEP.PrintName              = "Nova | Hyperbeast"
 
 SWEP.ViewModel				= Model( "models/weapons/shotgun/nova/hyperbeast/v_nova.mdl" )

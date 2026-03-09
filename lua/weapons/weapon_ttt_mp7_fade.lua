@@ -19,6 +19,7 @@ sound.Add( {
 SWEP.Base = "light_smg_base"
 DEFINE_BASECLASS("light_smg_base")
 
+SWEP.ClassName              = "weapon_ttt_mp7_fade"
 SWEP.PrintName              = "MP7 | Fade"
 
 SWEP.ViewModel				= Model( "models/weapons/light_smg/mp7/fade/v_mp7.mdl" )

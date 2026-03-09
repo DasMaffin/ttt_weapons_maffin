@@ -9,6 +9,7 @@ sound.Add({ name = "ssg08_dragon.draw", channel = CHAN_ITEM, volume = 1.0, sound
 SWEP.Base = "light_sniper_base"
 DEFINE_BASECLASS("light_sniper_base")
 
+SWEP.ClassName              = "weapon_ttt_ssg08_dragonfire"
 SWEP.PrintName              = "SSG-08 | Dragonfire"
 
 SWEP.ViewModel				= Model( "models/weapons/light_sniper/ssg_08/dragonfire/v_ssg08_drgn.mdl" )

@@ -9,6 +9,7 @@ sound.Add( { name = "Weapon_M4A1S.Draw", channel = CHAN_STATIC, volume = 0.70, l
 SWEP.Base = "m4a1s_base"
 DEFINE_BASECLASS("m4a1s_base")
 
+SWEP.ClassName              = "ttt_weapon_m4a1s_hyperbeast"
 SWEP.PrintName              = "M4A1-S | Hyper Beast"
 
 SWEP.ViewModel				= Model("models/weapons/rif_m4a1s/v_m4a1s.mdl")

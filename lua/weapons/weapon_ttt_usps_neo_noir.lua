@@ -1,6 +1,7 @@
 SWEP.Base = "pistol_base"
 DEFINE_BASECLASS("pistol_base")
 
+SWEP.ClassName              = "weapon_ttt_usps_neo_noir"
 SWEP.PrintName              = "USP-S | Neo-Noir"
 
 SWEP.ViewModel				= Model( "models/weapons/pistol_s/usp/neo_noir/v_pist_usp.mdl" )

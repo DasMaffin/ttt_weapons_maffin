@@ -8,6 +8,7 @@ sound.Add( { name = "Weapon_FiveSeven.Draw", channel = CHAN_STATIC, volume = 0.7
 SWEP.Base = "pistol_base"
 DEFINE_BASECLASS("pistol_base")
 
+SWEP.ClassName              = "weapon_ttt_five_seve_copper_galaxy"
 SWEP.PrintName              = "Five-SeveN | Copper Galaxy"
 
 SWEP.ViewModel				= Model( "models/weapons/pistol/five_seven_copper_galaxy/v_fiveseven.mdl" )
